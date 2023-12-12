@@ -16,7 +16,7 @@ def get_price(player_name):
     price = driver.find_element(By.XPATH, xpath)
     price = price.text.split("K")[0]
     driver.close()
-    print(price)
+    print(player_name, price)
     return price
 
 
