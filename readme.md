@@ -18,7 +18,7 @@ The FutbinCrawler is a Python application designed to automate the process of fe
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/fifa-player-price-updater.git
+   git clone https://github.com/parsarmx/futbin.git
    cd futbin/
 
 2. **Install Dependencies:**
