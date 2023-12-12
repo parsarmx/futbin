@@ -16,7 +16,7 @@ def get_price(player_name):
     price = driver.find_element(By.XPATH, xpath)
     price = price.text.split("K")[0]
     driver.close()
-
+    print(price)
     return price
 
 
@@ -38,4 +38,5 @@ if __name__ == "__main__":
 
         update_prices(players)
         end = time.time()
+        print(end - start)
         time.sleep(300 - (end - start))
